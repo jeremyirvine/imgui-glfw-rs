@@ -13,7 +13,10 @@ edition = "2018"
 [dependencies]
 imgui = "0.1.0"
 imgui-opengl-renderer = "0.5.0"
-glfw = "0.31.0"
+
+[dependencies.glfw]
+version = "0.31.0"
+default-features = false
 
 [dev-dependencies]
 gl = "0.12.0"
